@@ -1,0 +1,99 @@
+#window {
+    background-color: #f8edeb;
+}
+
+#button {
+    background-color: #FEC89A;
+    border-radius: 15px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Archivo SemiBold';
+}
+#button:hover {
+    background-color: #FDCDA5;
+}
+#button:pressed {
+    background-color: #FEC89A;
+}
+
+#cell {
+    background-color: #FFB5A7;
+    border-radius: 5px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Acme';
+    padding: auto;
+}
+#cell:hover {
+    background-color: #FEC5BB;
+}
+#cell:pressed {
+    background-color: #FCD5CE;
+}
+
+#full_cell {
+    background-color: #FFB5A7;
+    border-radius: 5px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Acme';
+    padding: auto;
+}
+
+#label {
+    background-color: #F9DCC4;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Archivo Black';
+}
+#label_turn {
+    background-color: #F9DCC4;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Archivo Black';
+    border: 6px solid #FEC89A;
+}
+
+#score {
+    background-color: #FEC89A;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Archivo Black';
+    border: 6px solid #FEC89A;
+}
+
+#small_button {
+    border-radius: 15px;
+}
+#small_button:hover {
+    background-color: #F9E7E4;
+}
+
+#line_label {
+    font-family: 'Inder';
+    font-size: 25px;
+    padding-left: 7px;
+}
+
+#line {
+    border-radius: 5px;
+    font-family: "Archivo SemiBold";
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+#text {
+    font-size: 130px;
+    font-family: 'Inder';
+}
+
+#error {
+    font-size: 16px;
+    color: red;
+    padding-left: 10px;
+}
